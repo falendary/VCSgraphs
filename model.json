@@ -1,0 +1,144 @@
+[
+  {
+    id: 1,
+    name: '0.0.0',
+    channels: [
+      {
+        id: 1,
+        name: 'dev',
+        published: '19.08.2015 11:57'
+      },
+      {
+        id: 2,
+        name: 'test',
+        published: '19.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+      {
+        id: 2,
+        name: '0.0.1'
+      },
+      {
+        id: 2,
+        name: '0.1.0'
+      }
+    ]
+  },
+  {
+    id: 2,
+    name: '0.0.1',
+    channels: [
+      {
+        id: 1,
+        name: 'dev',
+        published: '20.08.2015 11:57'
+      },
+      {
+        id: 2,
+        name: 'test',
+        published: '20.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+      {
+        id: 2,
+        name: '0.1.0'
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: '0.1.0',
+    channels: [
+      {
+        id: 2,
+        name: 'test',
+        published: '20.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+      {
+        id: 4,
+        name: '1.0.0'
+      },
+      {
+        id: 5,
+        name: '1.1.0'
+      }
+    ]
+  },
+  {
+    id: 4,
+    name: '1.0.0',
+    channels: [
+      {
+        id: 3,
+        name: 'stable',
+        published: '21.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+    ]
+  },
+  {
+    id: 5,
+    name: '1.1.0',
+    channels: [
+      {
+        id: 2,
+        name: 'test',
+        published: '22.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+      {
+        id: 6,
+        name: '1.2.1'
+      }
+    ]
+  },
+  {
+    id: 6,
+    name: '1.2.1',
+    channels: [
+      {
+        id: 1,
+        name: 'dev',
+        published: '23.08.2015 11:57'
+      }
+    ],
+    upgrades: [
+    ]
+  }
+]
+
+{
+"id": 5,
+"name": "pre_prod1",
+"description": "ppppp",
+"visible": true,
+"prevProductChannels": [
+{
+"id": 1,
+"name": "dev",
+"description": "qqqq",
+"visible": true
+}
+,
+{
+"id": 2,
+"name": "test",
+"description": "tttt",
+"visible": true
+}
+],
+"nextProductChannels": [
+{
+"id": 3,
+"name": "prod",
+"description": "ppppp",
+"visible": true
+}
+]
+}
